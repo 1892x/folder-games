@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница — Проекты & Игры</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Шапка -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">MyStudio</div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#" class="nav-link">Главная</a></li>
+                    <li><a href="#projects" class="nav-link">Игры/Проекты</a></li>
+                    <li><a href="#" class="nav-link">О нас</a></li>
+                    <li><a href="#" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 2. Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Создаём миры, в которые хочется возвращаться</h1>
+            <p>Мы независимая студия разработки. Погрузитесь в наши проекты и исследуйте новые игровые механики!</p>
+            <a href="#projects" class="btn">Смотреть проекты</a>
+        </div>
+    </section>
+
+    <!-- 3. Сетка карточек -->
+    <main class="projects" id="projects">
+        <h2 class="section-title">Наши Проекты</h2>
+        
+        <div class="cards-grid">
+            <!-- Карточка 1 -->
+            <article class="card">
+                <div class="card-img">[ Превью игры 1 ]</div>
+                <div class="card-body">
+                    <h3 class="card-title">Cyber Odyssey</h3>
+                    <p class="card-text">Приключенческий экшен в стиле киберпанк с глубоким сюжетом и динамичной боёвкой.</p>
+                    <a href="#" class="btn" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Подробнее</a>
+                </div>
+            </article>
+
+            <!-- Карточка 2 -->
+            <article class="card">
+                <div class="card-img" style="background-color: #16213e;">[ Превью игры 2 ]</div>
+                <div class="card-body">
+                    <h3 class="card-title">Pixel Realm</h3>
+                    <p class="card-text">Уютный 2D-платформер с пиксельной графикой, сложными головоломками и атмосферным саундтреком.</p>
+                    <a href="#" class="btn" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Подробнее</a>
+                </div>
+            </article>
+
+            <!-- Карточка 3 -->
+            <article class="card">
+                <div class="card-img" style="background-color: #e94560;">[ Превью игры 3 ]</div>
+                <div class="card-body">
+                    <h3 class="card-title">Space Tactics</h3>
+                    <p class="card-text">Пошаговая космическая стратегия, где вам предстоит управлять собственной галактической империей.</p>
+                    <a href="#" class="btn" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Подробнее</a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- 4. Подвал -->
+    <footer class="footer">
+        <div class="footer-socials">
+            <a href="#">Telegram</a>
+            <a href="#">Discord</a>
+            <a href="#">VK</a>
+            <a href="#">GitHub</a>
+        </div>
+        <p>&copy; 2026 MyStudio. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
